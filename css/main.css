@@ -1,0 +1,241 @@
+body{
+    /*background-color: palegreen;*/
+}
+.header{
+    padding-left: 5%;
+    background-color: #343a40;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.header .navbar-brand{
+    /*padding: 10px 100px;*/
+}
+.header .navbar-nav{
+    margin: 0 auto;
+
+}
+.simple-social-icons {
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+.simple-social-icons a {
+    color: #fff;
+}
+.simple-social-icons .phon-NO{
+    text-align: center;
+}
+.simple-social-icons p{
+    display: inline;
+    margin: 0 auto;
+}
+.simple-social-icons ul {
+    margin: 0;
+    padding: 0;
+}
+.simple-social-icons ul li {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    border: medium none !important;
+    float: left;
+    list-style-type: none !important;
+    margin: 0 6px 12px !important;
+    padding: 0 !important;
+}
+.simple-social-icons ul li a {
+    -moz-osx-font-smoothing: grayscale;
+    border: medium none !important;
+    box-sizing: content-box;
+    display: inline-block;
+    font-family: "ssi-icomoon";
+    font-style: normal !important;
+    font-variant: normal !important;
+    font-weight: normal !important;
+    line-height: 1em;
+    text-align: center;
+    text-decoration: none !important;
+    text-transform: none !important;
+    width: 1em;
+}
+.simple-social-icons ul.aligncenter {
+    text-align: center;
+}
+.simple-social-icons ul.aligncenter li {
+    display: inline-block;
+    float: none;
+}
+.carousel-caption{
+    bottom: 15%;
+    color: #fff;
+    text-shadow: 1px 1px 4px #000, -1px -1px 4px #000;
+}
+
+.carousel-caption p{
+    font-size: 28px;
+    line-height: 25px;
+}
+/*.carousel-caption p:last-child{
+    border: 1px solid #000; 
+    display: inline-block;
+    padding: 10px 10px!important;
+    background-color: #fff;
+    cursor: pointer;
+}*/
+.carousel-indicators li{
+    background-color: #000;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+.carousel-control-prev-icon , .carousel-control-next-icon {
+    background-image: unset;
+    color: #000;
+    font-size: 24px;
+}
+.header-2{margin-top: 8%;padding-left: 2%;margin-left: 3%;color: #467a98;border-left: 4px solid #467a98;}
+.h2-about-us{
+    text-align: center;
+    margin-top: 20px;
+}
+.card.text-center.about-us{
+    padding:5% 15%;
+    /*background-image: url(../imgs/10.jpg);*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.card.text-center.about-us h5{
+    margin-bottom: 30px;
+    text-shadow: 0px 0px 5px #fff;
+    /*color: aqua;*/
+}
+.card.main-product{
+    margin: 10px auto;
+    text-align: center;
+    box-shadow: 0px 0px 10px #000;
+}
+.container.gallery .card{
+    box-shadow: 0px 0px 5px #000;
+}
+.container.gallery .card .card-img-top{
+    width: 100%;
+    height: 100%;
+}
+.gmap_canvas {
+    overflow:hidden;background:none!important;height:400px;width:1080px;
+    box-shadow: 0px 0px 10px #000;
+}
+.container.map{
+    margin-bottom: 20px;
+}
+
+/*gallery style*/
+
+
+.container-fluid.gallery img {
+  vertical-align: middle;
+}
+
+.container-fluid.gallery .img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container-fluid.gallery .grid article {
+  background-color: #FFFFFF;
+  display: block;
+  float: left;
+  margin: 1%;
+  width: 23%;
+}
+
+@media (max-width: 1024px) {
+  .container-fluid.gallery .grid article {
+    width: 31.3%;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-fluid.gallery .grid article {
+    width: 48%;
+  }
+}
+
+@media (max-width: 479px) {
+  .grid article {
+    margin: 2% 0;
+    width: 100%;
+  }
+}
+/* end gallery style*/
+/*contact style*/
+.container.contact .h-numbers.row{
+    padding: 20px 20px 40px;
+    color: #f00;
+}
+.main-numbers{
+    padding: 10px 15%;
+    margin: 0 auto;
+}
+.container.contact .first-number , .container.contact .second-number{
+    padding: 10px;
+    font-weight: bolder;
+    border-left: 2px solid #000;
+}
+.container.contact .h-social{
+    text-align: center;
+    margin: 50px 0;
+}
+.container.contact .h-social span{margin: 0; padding: 1px 13%; border-top: 1px solid #0000003d; margin: 0 3%;}
+.container.contact .h-social h3{
+    color: #f00;
+    display: inline-block;
+}
+.social-media section{
+    text-align: center;
+}
+.social-media .social-fb{
+    font-weight: bold;
+    font-size: 50px;
+}
+.social-media .social-fb:before {
+    font-family: "Font Awesome 5 Brands";
+    content: "\f082";
+}
+.container.contact .form-message .body{
+    margin: 10px auto;
+    padding: 20px;
+}
+.container.contact section.address{
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px #000;
+    font-weight: bold;
+}
+
+.container.contact section.address ul , .container.contact section.address li{
+    display: inline-block;
+    margin: auto;
+}
+.container.contact section.address li{
+    padding: 8px 20px;
+    border-left: 1px solid #000;
+}
+/*end contact style*/
+/*style customers*/
+.container.customers{
+    padding-top: 10%;
+}
+.container.customers .card{
+    border:none;
+    margin: 0 auto 10%;
+}
+.container.customers .card .card-img-top{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0px auto;
+}
+/*end style customers*/
